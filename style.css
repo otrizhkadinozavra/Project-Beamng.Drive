@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.top-bar {
+    background-color: #ff8c00; /* Bright orange */
+    height: 60px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-placeholder img {
+    height: 40px;
+}
+
+/* Layout Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+.btn {
+    background-color: #ff8c00;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 2px;
+}
+
+.hero-image img {
+    width: 300px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Menu Section */
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.item-box {
+    width: 300px;
+    height: 200px;
+    background-color: #c4c4c4; /* Gray placeholder */
+}
+
+.item-details h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 15px !important;
+}
+.site-footer {
+    background-color: #ff8c00; /* Темний фон */
+    color: #ecf0f1; /* Світлий текст */
+    padding: 40px 0 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Розподіляє колонки рівномірно */
+    flex-wrap: wrap; /* Дозволяє колонкам переноситись на малих екранах */
+    max-width: 1200px;
+    margin: 0 auto; /* Центрує контент по горизонталі */
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1; /* Колонки займають однакову ширину */
+    margin: 10px 20px;
+    min-width: 250px; /* Мінімальна ширина для мобільних пристроїв */
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #835203; /* Акцентний колір для заголовків */
+    
+}
+
+.footer-column ul {
+    list-style: none; /* Прибираємо маркери списку */
+}
+
+.footer-column ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #f39c12; /* Зміна кольору при наведенні */
+}
+
+/* Нижня частина футера (Копірайт) */
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ab5e00; /* Тонка лінія роздільника */
+    font-size: 0.9rem;
+}
